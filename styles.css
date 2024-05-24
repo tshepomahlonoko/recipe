@@ -1,0 +1,104 @@
+body {
+    display: grid;
+    background-color: hsl(30, 54%, 90%);
+    padding: 80px 0px;
+    font-family: "Outfit";
+    font-size: 16px;
+}
+.container {
+    background-color: white;
+}
+h1 {
+    font-family: "Young Serif";
+    font-size: 2rem;
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 15px;
+}
+h2 {
+    font-family: "Young Serif";
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 15px;
+}
+h3{
+    color: hsl(332, 51%, 32%);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+li {
+    padding-left: 15px;
+    line-height: 30px;
+}
+ul li::marker{
+    color: hsl(332, 51%, 32%);
+    font-size: smaller;
+}
+ol li {
+    margin: 10px 0px;
+    line-height: normal;
+}
+ol li::marker{
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+strong {
+    color: hsl(30, 10%, 34%);
+}
+.main {
+    border-radius: 20px;
+    padding: 50px;
+       
+}
+.header-image {
+    height: 50%;
+    width: 100%;
+    border-radius: 20px;
+}
+.margin {
+    margin-top: 30px;
+    margin-bottom: 30px;        
+}
+.prep-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 27px 27px 15px 27px;
+    border-radius: 10px;
+}
+#new-color td+td {
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);    
+}
+tbody > tr:last-child > td  {
+    border-bottom: 0;
+}
+.attribution { 
+    font-size: 12px; text-align: center;
+    margin-bottom: 0; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@media (max-width: 480px) {
+    body {
+    background-color: white;
+    padding: 0px;    
+    }
+
+    .main {
+        border-radius: 0;
+        padding: 0px;
+    }
+    .header-image {
+        border-radius: 0px;
+    }
+    .margin {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .prep-time {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .attribution {
+        margin: 10px;    
+    }
+    
+ }
